@@ -1,1 +1,37 @@
-A
+Perintah Dasar Bash
+ls       : List --> daftar folder dan file // jika file tdk terlihat tambahkan -a
+PWD      : Print Working Directory --> Menampilkan path yang lagi dipakai
+cd       : Change directory --> Pindah folder 
+- cara menggunakan   : cd/nama project atau ketik file yang ingin dipindah lalu tab
+- cara kembali ke file sebelumnya : cd ..
+Absolute path  : Jalur lengkap menuju sebuah file directory, dimulai dari root directory (biasanya "/") dan mencakup semua subdirektori di sepanjang jalur tersebut. 
+Contoh   : home/user/document/project/index.html
+Relative Path  : Jalur yang ditentukan relatif terhadap direktori kerja saat ini (current working directory). Tidak dimulai dari root directory. 
+Contoh: ../data/file.txt
+mkdir    : membuat direktori baru
+rm       : menghapus file/direktori 
+rmdir    : hanya menghapus direktori
+mv       : memindahkan atau mengganti nama file/direktori
+cp       : menyalin file atau direktori
+
+Create :
+git init
+git clone
+
+Make a change
+git add <File>
+git add .
+git commit -m "<Messege>"
+git reset <File>
+git reset --hard
+
+Sync
+git push
+git pull
+git fetch
+
+Branch
+git branch 
+git checkout
+git merge
+git tag.
