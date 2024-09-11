@@ -15,7 +15,8 @@ mv       : memindahkan atau mengganti nama file/direktori
 cp       : menyalin file atau direktori
 
 Create :
-git init : diketik diterminal akan membuat .git (ya gtu)
+git init : diketik diterminal akan membuat .git (ya gtu) 
+ls -al   : list perubahan setelah ketik git init
 git clone: menyalin suatu project atau code di github
 
 Make a change
