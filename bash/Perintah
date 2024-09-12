@@ -18,7 +18,7 @@ Create :
 git init : diketik diterminal akan membuat .git (ya gtu) 
 ls -al   : list perubahan setelah ketik git init
 git clone: menyalin suatu project atau code di github, caranya adalah ketik git clone setelah itu diikuti url dari github bagian 'code' lalu dienter
-lalu ketik code namafile/
+lalu ketik code namafile/ atau setelah meng-clone ketik code and space
 
 Make a change
 git add <File>
