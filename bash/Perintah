@@ -26,7 +26,7 @@ git add     : menandai perubahan yang akan di simpan.  git add namafile
 git add .   : git add tapi langsung satu folder
 git diff --staged : menampilan detail prubahan yang telah ditandai;
 git commit -m "<Messege>"
-git reset <File>
+git reset <File> : mengembalikan ke sebelum git add
 git reset --hard
 
 Sync
