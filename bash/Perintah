@@ -24,10 +24,13 @@ Make a change (mencatat perubahan)
 git status  : menampilan status perubahan
 git add     : menandai perubahan yang akan di simpan.  git add namafile
 git add .   : git add tapi langsung satu folder
-git diff --staged : menampilan detail prubahan yang telah ditandai;
-git commit -m "<Messege>"
+git commit -m "<Messege>" : ketikkan git commit -m "isi kamu td ngerubah apa"
 git reset <File> : mengembalikan ke sebelum git add
 git reset --hard
+ + (tambahan) : jika muncul pls tell me who u are, ketik git config --global.username "namamu y"
+                lalu ketik git config --global.useremail "emailmu y"
+git log      : mengecek apakah berhasil melakukan perubahan dan siapa yang melakukan perubahan
+git diff     : menampilkan perubahan <jika muncul end ketik q (quit) untuk ke file directory>
 
 Sync
 git push
