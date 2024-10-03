@@ -33,7 +33,12 @@ git log      : mengecek apakah berhasil melakukan perubahan dan siapa yang melak
 git diff     : menampilkan perubahan <jika muncul end ketik q (quit) untuk ke file directory>
 
 Sync
-git push
+git push   : lokal ke online
+             ketik git remote add origin <link code dri github>
+             ketik -v untuk mengecek apakah sudah berhasil
+             ketik git push origin master untuk mengupload di github
+
+            
 git pull
 git fetch
 
