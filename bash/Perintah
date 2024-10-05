@@ -35,12 +35,20 @@ git diff     : menampilkan perubahan <jika muncul end ketik q (quit) untuk ke fi
 Sync
 git push   : lokal ke online
              ketik git remote add origin <link code dri github>
-             ketik -v untuk mengecek apakah sudah berhasil
+             ketik git remote -v untuk mengecek apakah sudah berhasil
              ketik git push origin master untuk mengupload di github
 
             
-git pull
-git fetch
+git pull   : klik git pull origin master
+git fetch  : mengambil (mengunduh) pembaruan dari repositori remote tanpa menggabungkannya ke dalam cabang lokal Anda.
+             ketik git fetch
+             ketik git checkout namafile
+             git branch
++ tambahan 
+(jika ingin menghapus ) : git checkout master
+                          git branch
+                          git branch -D namafile
+
 
 Branch
 git branch 
