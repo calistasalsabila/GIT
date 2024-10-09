@@ -58,18 +58,22 @@ git tag.
 #include <stdio.h>
 #include <string.h>
 
+#include <stdio.h>
+#include <string.h>
+
 int main() {
     char nama[100];
     char nama_balik[100];
     int panjang_nama;
+    int i, j;
 
     printf("Masukkan nama: ");
     scanf("%[^\n]", nama);
 
     panjang_nama = strlen(nama);
 
-    for (int i = 0; i < panjang_nama; i++) {
-        nama_balik[i] = nama[panjang_nama - 1 - i];
+    for (i = 0, j = panjang_nama - 1; i < panjang_nama; i++, j--) {
+        nama_balik[i] = nama[j];
     }
 
     nama_balik[panjang_nama] = '\0'; // tambahkan null terminator
