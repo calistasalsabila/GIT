@@ -55,3 +55,9 @@ git branch
 git checkout
 git merge
 git tag.
+
++
+git add .
+git commit -m "....."
+git push origin main
+
