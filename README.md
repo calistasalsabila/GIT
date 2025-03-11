@@ -1,4 +1,4 @@
-# README: Bash & Git Commands 📖
+# Bash & Git Commands 📖
 
 ## Introduction 🖥️
 This repository contains essential **Bash and Git commands** that are frequently used for managing files, directories, and version control. Whether you're a beginner or an experienced developer, mastering these commands will improve your efficiency in software development and system administration. 🚀
