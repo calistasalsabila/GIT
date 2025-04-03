@@ -1,4 +1,4 @@
-Perintah Dasar Bash
+Perintah Dasar Bash!
 ls       : List --> daftar folder dan file // jika file tdk terlihat tambahkan -a
 PWD      : Print Working Directory --> Menampilkan path yang lagi dipakai
 cd       : Change directory --> Pindah folder 
