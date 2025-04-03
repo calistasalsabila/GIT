@@ -111,6 +111,23 @@ function ok() {
     fi
 }
 
+atau
+
+function ok() {
+    git pull origin main  # Auto pull dulu biar up-to-date
+    git status
+    read -p "Lanjut commit? (y/n) " confirm
+    if [[ $confirm == "y" ]]; then
+        read -p "Commit message: " msg
+        git add .
+        git commit -m "$msg"
+        git push origin main
+    else
+        echo "Commit dibatalkan."
+    fi
+}
+
+
 
 
 
