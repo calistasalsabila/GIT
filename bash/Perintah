@@ -61,3 +61,45 @@ git add .
 git commit -m "....."
 git push origin main
 
+nano ~/.bashrc
+    - if [[ $- != *i* ]]; then
+    return
+fi
+
+function ok() {
+    git add .
+    git commit -m "update"
+    git push origin main
+}
+
+if [ -f ~/.bash_aliases ]; then
+    source ~/.bash_aliases
+fi
+
+nano ~/.bash_profile
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+if [ -f '/c/Users/VICTUS/anaconda3/Scripts/conda.exe' ]; then
+    eval "$('/c/Users/VICTUS/anaconda3/Scripts/conda.exe' 'shell.bash' 'hook')"
+fi
+# <<< conda initialize <<<
+
+function ok() {
+    git add .
+    git commit -m "update"
+    git push origin main
+}
+
+
+if [ -f ~/.bash_aliases ]; then
+    source ~/.bash_aliases
+fi
+
+
+
+
+
+
+
+
