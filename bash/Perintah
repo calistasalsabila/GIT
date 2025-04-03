@@ -96,6 +96,21 @@ if [ -f ~/.bash_aliases ]; then
     source ~/.bash_aliases
 fi
 
+safe :
+
+function ok() {
+    git status
+    read -p "Lanjut commit? (y/n) " confirm
+    if [[ $confirm == "y" ]]; then
+        read -p "Commit message: " msg
+        git add .
+        git commit -m "$msg"
+        git push origin main
+    else
+        echo "Commit dibatalkan."
+    fi
+}
+
 
 
 
