@@ -133,8 +133,10 @@ function ok() {
   git add .
   git commit -m "${1:-update}"
   git push
-  echo "✅ Pushed with message: ${1:-update}"
+  echo "Pushed with message: ${1:-update}"
 }
+
+source ~/.bashrc
 
 
 
