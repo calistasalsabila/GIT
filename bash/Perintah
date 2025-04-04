@@ -95,6 +95,7 @@ function ok() {
 if [ -f ~/.bash_aliases ]; then
     source ~/.bash_aliases
 fi
+source ~/.bashrc
 
 safe :
 
@@ -136,7 +137,7 @@ function ok() {
   echo "Pushed with message: ${1:-update}"
 }
 
-source ~/.bashrc
+
 
 
 
